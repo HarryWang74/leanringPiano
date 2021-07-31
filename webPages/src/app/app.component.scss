@@ -1,0 +1,62 @@
+.pianoKeyboard{
+    height: 100%;
+    background: #000;
+    padding-top: 100px;
+    .sectionNav{
+        padding-top: 40px;
+        .secBtn{
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            font-size: 35px;
+            vertical-align: middle;
+            text-align: center;
+            border-radius: 999px;
+            border: 2px solid #000;
+            cursor: pointer;
+            .number{
+                position: relative;
+                top: 8px;
+            }
+            &.selected{
+                color:#fff;
+                background: #000;
+            }
+        }
+        .c1{ margin-left: 266px;}
+        .c2{ margin-left: 182px;}
+        .c3{ margin-left: 190px;}
+        .c4{ margin-left: 182px;}
+        .c5{ margin-left: 182px;}
+        .c6{ margin-left: 182px;}
+        .c7{ margin-left: 190px;}
+    }
+    .mainContainer{
+        width: 2050px;
+        margin: 0 auto;
+        min-height: 400px;
+        background: #fff;
+        .notesWrapper{
+            padding-left: 97px;
+            margin-top: -5px;
+            .notes{
+                display: inline;
+                &.hidden{
+                    opacity: 0;
+                }
+            }
+        }
+
+    }
+    .handBtnWrapper{
+        padding-right: 100px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: right;
+        .handBtn{
+            display: inline-block;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+    }
+}
