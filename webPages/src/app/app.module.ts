@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { KeyboardComponent } from './keyboard/keyboard.component';
 import { NavComponent } from './nav/nav.component';
+import { Week02aComponent } from './week02/week02a/week02a.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimelineComponent,
     KeyboardComponent,
-    NavComponent
+    NavComponent,
+    Week02aComponent
   ],
   imports: [
     BrowserModule,
