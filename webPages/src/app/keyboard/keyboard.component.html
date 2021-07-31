@@ -1,0 +1,42 @@
+<div class="pianoKeyboard">
+    <div class="mainContainer">
+      <div class="sectionNav">
+        <span class="secBtn c1" 
+          [ngClass]="{'selected': selectedC1}"
+          (click)=btnClickHandler(1)><span class="number">c1</span></span>
+        <span class="secBtn c2" 
+          [ngClass]="{'selected': selectedC2}"
+          (click)=btnClickHandler(2)><span class="number">c2</span></span>
+        <span class="secBtn c3" 
+          [ngClass]="{'selected': selectedC3}"
+          (click)=btnClickHandler(3)><span class="number">c3</span></span>
+        <span class="secBtn c4" 
+          [ngClass]="{'selected': selectedC4}"
+          (click)=btnClickHandler(4)><span class="number">c4</span></span>
+        <span class="secBtn c5" 
+          [ngClass]="{'selected': selectedC5}"
+          (click)=btnClickHandler(5)><span class="number">c5</span></span>
+        <span class="secBtn c6" 
+          [ngClass]="{'selected': selectedC6}"
+          (click)=btnClickHandler(6)><span class="number">c6</span></span>
+        <span class="secBtn c7" 
+          [ngClass]="{'selected': selectedC7}"
+          (click)=btnClickHandler(7)><span class="number">c7</span></span>
+      </div>
+      <div><img src="assets/keyboard.jpg"></div>
+      <div class="notesWrapper">
+        <div class="notes" [ngClass]="{'hidden': !selectedC1}"><img src="assets/c1.png"></div>
+        <div class="notes" [ngClass]="{'hidden': !selectedC2}"><img src="assets/c2.png"></div>
+        <div class="notes" [ngClass]="{'hidden': !selectedC3}"><img src="assets/c3.png"></div>
+        <div class="notes" [ngClass]="{'hidden': !selectedC4}"><img src="assets/c4.png"></div>
+        <div class="notes" [ngClass]="{'hidden': !selectedC5}"><img src="assets/c5.png"></div>
+        <div class="notes" [ngClass]="{'hidden': !selectedC6}"><img src="assets/c6.png"></div>
+        <div class="notes" [ngClass]="{'hidden': !selectedC7}"><img src="assets/c7.png"></div>
+      </div>
+      <div class="bottomNav">
+        <a >Flowkey notes</a>
+        <a href="#">Practice</a>
+        <a routerLink="/timeline">Time line</a>
+      </div>
+    </div>
+  </div>
