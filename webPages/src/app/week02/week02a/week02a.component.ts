@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class Week02aComponent implements OnInit {
 
   constructor() { }
-
+  Rc4g401: boolean = false
+  
   ngOnInit(): void {
   }
 
