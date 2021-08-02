@@ -9,6 +9,7 @@ import { KeyboardComponent } from './keyboard/keyboard.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { Week02aComponent } from './week02/week02a/week02a.component';
 import { CheckboxLinkComponent } from './shared/checkbox-link/checkbox-link.component';
+import { Week04aComponent } from './week04/week04a/week04a.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CheckboxLinkComponent } from './shared/checkbox-link/checkbox-link.comp
     KeyboardComponent,
     NavComponent,
     Week02aComponent,
-    CheckboxLinkComponent
+    CheckboxLinkComponent,
+    Week04aComponent
   ],
   imports: [
     BrowserModule,
