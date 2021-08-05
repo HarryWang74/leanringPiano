@@ -10,6 +10,7 @@ import { NavComponent } from './shared/nav/nav.component';
 import { Week02aComponent } from './week02/week02a/week02a.component';
 import { CheckboxLinkComponent } from './shared/checkbox-link/checkbox-link.component';
 import { Week04aComponent } from './week04/week04a/week04a.component';
+import { Week01aComponent } from './week01/week01a/week01a.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Week04aComponent } from './week04/week04a/week04a.component';
     NavComponent,
     Week02aComponent,
     CheckboxLinkComponent,
-    Week04aComponent
+    Week04aComponent,
+    Week01aComponent
   ],
   imports: [
     BrowserModule,
