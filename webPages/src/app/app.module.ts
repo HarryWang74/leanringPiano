@@ -12,6 +12,7 @@ import { CheckboxLinkComponent } from './shared/checkbox-link/checkbox-link.comp
 import { Week04aComponent } from './week04/week04a/week04a.component';
 import { Week01aComponent } from './week01/week01a/week01a.component';
 import { Week05aComponent } from './week05/week05a/week05a.component';
+import { Week04bComponent } from './week04/week04b/week04b.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { Week05aComponent } from './week05/week05a/week05a.component';
     CheckboxLinkComponent,
     Week04aComponent,
     Week01aComponent,
-    Week05aComponent
+    Week05aComponent,
+    Week04bComponent
   ],
   imports: [
     BrowserModule,
